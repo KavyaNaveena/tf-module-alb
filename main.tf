@@ -11,6 +11,7 @@ resource "aws_lb" "main" {
     var.tags,
     { Name = "${var.name}-${var.env}" }
   )
+
 }
 
 #resource "aws_security_group" "main" {
